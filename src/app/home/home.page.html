@@ -1,7 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="primary"> 
+    <ion-button> 
+      <ion-icon name="home"></ion-icon>
+    </ion-button> 
+   <ion-button> 
+    <ion-icon name="search"></ion-icon> 
+   </ion-button> 
+   <ion-button> 
+    <ion-icon name="podium"></ion-icon> 
+   </ion-button>
+   <ion-button> 
+    <ion-icon name="logo-whatsapp"></ion-icon>
+   </ion-button>
+   <ion-button> 
+    <ion-icon name="logo-tux"></ion-icon>
+   </ion-button>
+  </ion-buttons>
     <ion-title>
-      Blank
+      <ion-icon name="airplane"></ion-icon>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +26,36 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-text color="secondary">
+      <h1>Mi párrafo H1</h1>
+    </ion-text>
+    
+    <ion-text color="primary">
+      <h2>Mi párrafo H2</h2>
+    </ion-text>
+
+    <ion-text color="warning">
+      <h3>Mi párrafo H3</h3>
+    </ion-text>
+    
+    <ion-text color="danger">
+      <h4>Mi párrafo H4</h4>
+    </ion-text>
+    
+    <ion-text color="dark">
+      <h5>Mi párrafo H5</h5>
+    </ion-text>
+    
+    <p>
+      "La mayoría del software actual es muy parecido a una pirámide egipcia, con millones de 
+      <ion-text color="danger"><sub>ladrillos</sub></ion-text> puestos unos encima de otros sin una estructura integral, 
+      <ion-text color="primary"><i> simplemente</i></ion-text> realizada a base de <ion-text color="secondary"><a>fuerza bruta y miles de esclavos"</a>.</ion-text>
+      <ion-text color="warning"><ion-icon name="airplane"></ion-icon></ion-text>
+    </p>
   </div>
 </ion-content>
