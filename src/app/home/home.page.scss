@@ -8,6 +8,12 @@
   transform: translateY(-50%);
 }
 
+ion-content, ion-header{
+  --ion-background-color: linear-gradient(25deg, rgba(151,148,233,1) 60%, rgba(0,186,181,1) 70%, rgba(0,121,159,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #container strong {
   font-size: 20px;
   line-height: 26px;

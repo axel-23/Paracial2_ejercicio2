@@ -1,61 +1,92 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-buttons slot="primary"> 
-    <ion-button> 
-      <ion-icon name="home"></ion-icon>
-    </ion-button> 
-   <ion-button> 
-    <ion-icon name="search"></ion-icon> 
-   </ion-button> 
-   <ion-button> 
-    <ion-icon name="podium"></ion-icon> 
-   </ion-button>
-   <ion-button> 
-    <ion-icon name="logo-whatsapp"></ion-icon>
-   </ion-button>
-   <ion-button> 
-    <ion-icon name="logo-tux"></ion-icon>
-   </ion-button>
-  </ion-buttons>
-    <ion-title>
-      <ion-icon name="airplane"></ion-icon>
-    </ion-title>
+    <ion-title></ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Home</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
   <div id="container">
-    <ion-text color="secondary">
-      <h1>Mi párrafo H1</h1>
-    </ion-text>
-    
-    <ion-text color="primary">
-      <h2>Mi párrafo H2</h2>
-    </ion-text>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <img src="../../assets/icon/whatsapp.svg" alt="Whatsapp icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/ilustrador.svg" alt="Ilustrador icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/photoshop.svg" alt="Photoshop icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/speaker.svg" alt="Speaker icon"/>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 
-    <ion-text color="warning">
-      <h3>Mi párrafo H3</h3>
-    </ion-text>
-    
-    <ion-text color="danger">
-      <h4>Mi párrafo H4</h4>
-    </ion-text>
-    
-    <ion-text color="dark">
-      <h5>Mi párrafo H5</h5>
-    </ion-text>
-    
-    <p>
-      "La mayoría del software actual es muy parecido a una pirámide egipcia, con millones de 
-      <ion-text color="danger"><sub>ladrillos</sub></ion-text> puestos unos encima de otros sin una estructura integral, 
-      <ion-text color="primary"><i> simplemente</i></ion-text> realizada a base de <ion-text color="secondary"><a>fuerza bruta y miles de esclavos"</a>.</ion-text>
-      <ion-text color="warning"><ion-icon name="airplane"></ion-icon></ion-text>
-    </p>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <img src="../../assets/icon/youtube.svg" alt="Youtube icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/netflix.svg" alt="Netflix icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/photo.svg" alt="Photo icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/galeria.svg" alt="Galeria icon"/>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <img src="../../assets/icon/facebook.svg" alt="Faceboot icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/dropbox.svg" alt="Dropbox icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/pinterest.svg" alt="Pinterest icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/spotify.svg" alt="Spotify icon"/>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
   </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <img src="../../assets/icon/whatsapp.svg" alt="Whatsapp icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/photo.svg" alt="Photo icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/gmail.svg" alt="Gmail icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/pdf.svg" alt="PDF icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/calculator.svg" alt="Calculator icon"/>
+        </ion-col>
+        <ion-col>
+          <img src="../../assets/icon/calendar.svg" alt="Calendar icon"/>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>
